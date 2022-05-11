@@ -1,6 +1,5 @@
 
 body{
-    border: solid 1px red;
     margin: 0px;
     font-family: "big shoulders text", "sans-serif";
     display: flex;
@@ -14,14 +13,17 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid 1px red;
     background-color: #FCD7D8;;
     padding: 0px 30px;
     margin: 0px;
 
 }
 .rates{
-    background-color: #e9e9e9;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
 }
 
 .contact{
@@ -32,14 +34,13 @@ header{
     background-color: #FCD7D8;
     justify-content: center;
     align-items: center;
-    border: solid 1px red;
-    margin-top:-90px;
+
+  
 }
 .content{
    display:flex;
    flex-direction: column;
-   width:400px;
-   border: solid 1px red;
+
 }
 h1{
     font-size: 35px;
@@ -47,23 +48,36 @@ h1{
 
 }
 
-p{
+p, h3{
     font-family: "sacramento";
 }
 
-.box-container{
+.rates-container{
     display:flex;
-    flex-direction: row;
-    justify-content: center;
+
+}
+.box-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    text-align: center;
   
 }
+
+.quote{
+    text-align: center;
+    font-size: 40px;
+    background-color: #eee;
+}
+
 .box{
     background-color: #f29c9f;
-    width: 40px;
-    height: 40px;
+    width: 150px;
+    height:150px;
     padding: 1px;
-    margin: 3px;
+    margin: 0px 30px;
     border: solid 1px black;
+    border-radius: 10%;
 }
 .reserve{
     font-size:13px;
@@ -73,17 +87,25 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
+    font-family: "big shoulders text", "sans-serif";
 }
 
 footer{
-    text-align: center;
     background-color: #f29c9f;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 }
-
+#foot-paw{
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
 ul{
    display: flex;
    gap: 3em;
-  border: solid 1px red;
+
     
 }
 

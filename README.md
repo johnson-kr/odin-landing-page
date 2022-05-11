@@ -1,1 +1,2 @@
 # odin-landing-page
+This project is a landing page which is used to practice my current knowledge gained in the foundations section of the Odin Project including: HTML, CSS, Flex-Box, and accessiblilty practices. 
