@@ -97,7 +97,6 @@ h3{
     font-size: 30px;
     padding: 70px;
     background-color: #eee;
-    border: solid 1px red;
 
 }
 
@@ -184,5 +183,4 @@ h2{
     font-weight: 900;
     margin-top: auto;
     margin-right: -300px;
-    border: solid 1px red;
 }
