@@ -6,9 +6,9 @@ body{
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    background-color: #FCD7D8;;
-    
+    background-color: #FCD7D8;; 
 }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -16,69 +16,55 @@ header{
     background-color: #FCD7D8;;
     padding: 0px 30px;
     margin: 0px;
-
 }
+
 .rates{
     display:flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
-
 }
 
-.contact{
-    background-color: #FCD7D8;
-}
 .about{
     display:flex;
     background-color: #FCD7D8;
     justify-content: center;
     align-items: center;
-
-  
 }
 .content{
    display:flex;
    flex-direction: column;
-
 }
+
 h1{
     font-size: 35px;
     margin-bottom: -6px;
-
 }
 
 p, h3{
-    font-family: "sacramento";
+    font-family: "sacramento", "sans-serif";
+}
+
+h3{
+    margin: 8px;
+    width: 50vh;
+    font-weight: 300;
+    font-style: italic;
+    border: solid 1px red;
 }
 
 .rates-container{
     display:flex;
-
+    padding: 30px;
 }
+
 .box-container{
     display: flex;
     flex-direction: column;
     margin-top: 30px;
     text-align: center;
-  
 }
 
-.quote{
-    text-align: center;
-    font-size: 40px;
-    background-color: #eee;
-}
-
-.box{
-    background-color: #f29c9f;
-    width: 150px;
-    height:150px;
-    padding: 1px;
-    margin: 0px 30px;
-    border: solid 1px black;
-    border-radius: 10%;
-}
 .reserve{
     font-size:13px;
     width: 150px;
@@ -88,30 +74,115 @@ p, h3{
     justify-content: center;
     align-items: center;
     font-family: "big shoulders text", "sans-serif";
+    border-radius: 5px;
+    border: solid 1px;
 }
 
-footer{
+.box{
     background-color: #f29c9f;
-    display:flex;
+    width: 150px;
+    height:150px;
+    padding-top: 8px;
+    margin: 0px 30px;
+    border: solid 3px black;
+    border-radius: 10%;
+    font-size: 120px;
+    color: #FCD7D8;
+}
+
+.quote{
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-   
+    font-size: 30px;
+    padding: 70px;
+    background-color: #eee;
+    border: solid 1px red;
+
 }
+
+.footer{
+    background-color: #FCD7D8;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 1px;
+    padding:20px;
+}
+
 #foot-paw{
-    margin-top: -20px;
-    margin-bottom: 5px;
+    margin: 5px;
 }
+
 ul{
    display: flex;
    gap: 3em;
-
-    
 }
 
 li{
     list-style: none;
-    font-family: "sacramento";
+    font-family: "sacramento", "sans-serif";
     font-size: 24px;
     font-weight:bold;
+}
+a:visited, a{
+    text-decoration: none;
+    color:black;
+   
+}
+
+.contact-container{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+background-color: #f29c9f;
+width: 70vh;
+height: 80px;
+border-radius: 4px;
+color: white;
+padding: 2px;
+}
+
+.contact-text{
+    margin-top: 15px;
+    padding: 0px;
+    text-align: left;
+
+}
+
+.contact{
+    display:flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: white;
+  
+}
+
+.free{
+    background-color: #f29c9f;
+    border: solid 2px;
+    color: white;
+    border-radius: 5px;
+    font-size:13px;
+    width: 150px;
+    height: 30px; 
+    padding: 0px; 
+}
+
+h2{
+    font-size: 20px;
+    margin: 0px;
+}
+
+.contact-text p{
+    margin-top: 2px;
+  
+}
+
+.quote p{
+    font-weight: 900;
+    margin-top: auto;
+    margin-right: -300px;
+    border: solid 1px red;
 }
